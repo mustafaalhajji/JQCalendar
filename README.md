@@ -28,10 +28,11 @@
 
 ## Installation
 
-Include jQuery in your project before using the `JQCalendar` class.
+Include jQuery and jQuery UI in your project before using the JQCalendar class. You can include them using the following CDN links:
 
 ```html
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="path/to/JQCalendar.js"></script>
 ```
 
