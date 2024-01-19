@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div id="calendar"></div>
+    <script>
+        // Create a new instance of the calendar
+        const calendar = new JQCalendar("#calendar", { currentDate: '2024-01-01' });
+        calendar.addEvent({ startDate: "2024-01-10T12:00:00", title: "1" });
+        calendar.addEvent({ startDate: "2024-01-10T12:00:00", title: "0", finishDate: '2024-01-15' });
+        calendar.addEvent({ startDate: "2024-01-10T12:00:00", title: "2" });
+        calendar.addEvent({ startDate: "2024-01-12T12:00:00", title: "3" });
+        calendar.addEvent({ startDate: "2024-01-12T12:00:00", title: "4" });
+        calendar.addEvent({ startDate: "2024-01-12T12:00:00", title: "5" });
+    </script>
+</body>
+</html>
